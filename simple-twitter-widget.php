@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Simple Twitter Widget
- * Plugin URI: http://shaunscovil.com/
+ * Plugin URI: https://github.com/sscovil/simple-twitter-widget
  * Description: A simple twitter feed widget.
  * Version: 0.1
  * Author: sscovil
