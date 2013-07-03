@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Simple Twitter Widget
+ * Plugin Name: Shaun's Simple Twitter Widget
  * Plugin URI: https://github.com/sscovil/simple-twitter-widget
  * Description: A simple twitter feed widget.
  * Version: 0.1
@@ -10,15 +10,15 @@
  * License: GPL2
  */
 
-class Simple_Twitter_Widget extends WP_Widget {
+class Shauns_Simple_Twitter_Widget extends WP_Widget {
 
     /**
      * Register widget with WordPress.
      */
     public function __construct() {
         parent::__construct(
-            'simple_twitter_widget', // Base ID
-            'Simple Twitter Widget', // Name
+            'shauns_simple_twitter_widget', // Base ID
+            'Shaun\'s Simple Twitter Widget', // Name
             array( 'description' => 'Add a custom Twitter widget to your sidebar.' ) // Args
         );
     }
@@ -84,4 +84,4 @@ class Simple_Twitter_Widget extends WP_Widget {
     }
 
 }
-add_action( 'widgets_init', create_function( '', 'register_widget( "Simple_Twitter_Widget" );' ) );
+add_action( 'widgets_init', create_function( '', 'register_widget( "Shauns_Simple_Twitter_Widget" );' ) );
